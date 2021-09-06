@@ -1,0 +1,14 @@
+.box {
+  min-height: 40px;
+  padding: 5px;
+  margin: 5px;
+  vertical-align: top;
+  text-align: left;
+  font-weight: 750;
+  color: #fff;
+}
+
+.skyblue {
+  background: rgb(16, 109, 116) ;
+}
+
