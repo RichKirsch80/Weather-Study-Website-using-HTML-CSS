@@ -7,9 +7,14 @@
 </head>
 
 <div class="container">
-  <div class="row">
-    <div class="col-xs-3">    
+  <div class="headbox">
+    <div class="row">    
       <div class="headbox skyblue">Latitude</div>
+        <ul class="headbox dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
     </div>
   </div>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,37 +24,36 @@
       Plots
     </a>
   
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-    </ul>
+    
   </div>
-  <h2>Max Temperature</h2>
-  <hr>
-<body>
+    
+<body style="background-color:  rgba(231, 231, 231, 0.781)">
      
-  <div class="container">
-    <div class="row">
-      <div class="col">
+  <div class="container-fluid">
+      <div class="col" style="background-color:  white">
+        <h2>Max Temperature</h2>
+        <hr>
         <img src="Resources/assets/images/Fig1.png" class="rounded-0" alt="graph of lat vs temp">
         <p>As expected, the weather becomes significantly warmer as one approaches the equator(0 Degrees Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time ofthe year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
       </div>
-      <div class="col">
-        <h2>Visualizations</h2>
-        <hr>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-        <img src="Resources/assets/images/Fig1.png" class="img-thumbnail" alt="graph of lat vs temp">
-        <img src="Resources/assets/images/Fig2.png" class="img-thumbnail" alt="graph of lat vs humidity">
+      
+        <div class="container" style="background-color:  white">
+          <h2>Visualizations</h2>
+          <hr>
+              <div class="col">
+                <a href="file:///C:/Users/richk/Web-Design-Challenge/visual1.html">
+                  <img alt="graph of lat vs max temp" src="Resources/assets/images/Fig1.png" width="150" height="150">
+                </a>
+                <a href="file:///C:/Users/richk/Web-Design-Challenge/visual2.html">
+                  <img alt="graph of lat vs Humidity" src="Resources/assets/images/Fig2.png" width="150" height="150">
+                </a>
+                <a href="file:///C:/Users/richk/Web-Design-Challenge/visual3.html">
+                  <img alt="graph of lat vs cloudiness" src="Resources/assets/images/Fig3.png" width="150" height="150">
+                </a>
+                <a href="file:///C:/Users/richk/Web-Design-Challenge/visual4.html">
+                  <img alt="graph of lat vs Wind speed" src="Resources/assets/images/Fig4.png" width="150" height="150">
+                </a>
         </div>
-        <div class="col">
-        <img src="Resources/assets/images/Fig3.png" class="img-thumbnail" alt="graph of lat vs cloudiness">
-        <img src="Resources/assets/images/Fig4.png" class="img-thumbnail" alt="graph of lat vs wind speed">
-      </div>
-      </div>
-    </div>
     </div>
   </div>
 </div>
